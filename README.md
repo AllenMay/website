@@ -54,3 +54,13 @@ Run these commands from within the project root.
     - style: When making code style changes
     - chore: When doing anything else not directly related to code (ie. changes to your build)
 - [CSS Coding Standards](docs/css.md)
+
+## Gulp Dependencies
+
+- [lodash] A JavaScript utility library delivering consistency, modularity, performance, & extras.
+- [require-dir] Node helper to require() directories. The directory's files are examined, and each one that can be require()'d is require()'d and returned as part of a hash from that file's basename to its exported contents.
+- [run-sequence] Runs a sequence of gulp tasks in the specified order. This function is designed to solve the situation where you have defined run-order, but choose not to or cannot use dependencies.
+
+[lodash]: https://lodash.com/
+[require-dir]: https://www.npmjs.com/package/require-dir
+[run-sequence]: https://www.npmjs.com/package/run-sequence
